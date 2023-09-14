@@ -1,60 +1,64 @@
 <!DOCTYPE html>
   <html lang="en-US" class="theme-beta">
-    <title>Solar Wiki</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <header><h1>Solar Wiki</h1></header>
-      <nav>
+    <head>
+    <title>Solar Homeowner Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/ico" href="docs/image.ico"/>
+    </head>
+    <header><h1>Solar Homeowner Guide</h1></header>
+      <nav id="mainmenu">
         <h2>Wiki Page Navigation Menu</h2>
         <ul>
-        <li>Homeowner Guide</li>
-        <li>Gov't Getting Started Info</li>
-        <li>Residential Solar System Types</li>
-            <li>Off Grid (stand alone system)</li>
-            <li>Grid Tie System</li>
-            <li>Grid Tie System with Battery Backup (Bimodal)</li>
-        <li>Residential Solar System Basic Components</li>
-        <li>Getting Started</li>
-            <li>Gather Some Info</li>
-            <li>Make Some Calculations</li>
-            <li>Rebate Programs</li>
-            <li>Hardware / System Basics</li>
-            <li>More Calculations</li>
-            <li>Choosing / Purchasing Components</li>
-            <li>Installation</li>
-            <li>Maintenance Considerations</li>
-        <li>FAQ - How Do I...</li>
-        <li>FAQ - Solar for a Shed</li>
+        <li><a href="#gettingstarted">Gov't Getting Started Info</a></li>
+        <li><a href="#systemtypes">Residential Solar System Types</a>
+          <ul>
+            <li><a href="#offgrid">Off Grid (stand alone system)</a></li>
+            <li><a href="#gridtie">Grid Tie System</a></li>
+            <li><a href="#bimodal">Grid Tie System with Battery Backup (Bimodal)</a></li>
+          </ul></li>
+        <li><a href="#basictable">Residential Solar System Basic Components</a></li>
+        <li><a href="#gettingstarted">Getting Started</a>
+          <ul>
+            <li><a href="#getinfo">Gather Some Info</a></li>
+            <li><a href="#calculate">Make Some Calculations</a></li>
+            <li><a href="#rebate">Rebate Programs</a></li>
+            <li><a href="#system">Hardware / System Basics</a></li>
+            <li><a href="#moremath">More Calculations</a></li>
+            <li><a href="#choose">Choosing / Purchasing Components</a></li>
+            <li><a href="#install">Installation</a></li>
+            <li><a href="#maintenance">Maintenance Considerations</a></li>
+          </ul></li>
+        <li><a href="#FAQ_how">FAQ - How Do I...</a></li>
+        <li><a href="#FAQ_shed">FAQ - Solar for a Shed</a></li>
         </ul>
-<ul>| Home | Solar Primer | Tech Tracker | Homeowner Guide | Panel Info |</ul>
+<ul id="external"><li><a href="#">Home</a></li> <li><a href="#">Solar Primer</a></li> <li><a href="#">Tech Tracker</a></li> <li><a href="#">Homeowner Guide</a></li> <li><a href="#">Panel Info</a></li> <li><a href="#credit">Credit</a></li></ul>
       </nav>
       <body>
-      <h2>>Gov't Getting Started Info</h2>
-
-<a href="http://energy.gov/energysaver/articles/small-solar-electric-systems">US Dept. of Energy Primer for small solar residential systems</a>
-
-<a href="http://energy.gov/energysaver/articles/planning-home-solar-electric-system">US Dept. of Energy Primer for planning a home solar system</a>
-
-<a href="http://energy.gov/energysaver/articles/grid-connected-renewable-energy-systems">US Dept. of Energy Primer for planning a grid connected solar system</a>
-
-<a href="http://www1.eere.energy.gov/solar/pdfs/44792.pdf">US Dept. of Energy 2008 Homebuilder Guide to Going Solar (pdf)</a>
-
-<a href="http://www.nrel.gov/education/pdfs/educational_resources/high_school/solar_circuitry_hs.pdf">NREL Middle / High School Solar Circuity pdf</a>
-
-<h3>Residential Solar System Types</h3>
+      <h2 id="Govt">Gov't Getting Started Info</h2>
+<ul>
+<li><a href="http://energy.gov/energysaver/articles/small-solar-electric-systems">US Dept. of Energy Primer for small solar residential systems</a></li>
+<li><a href="http://energy.gov/energysaver/articles/planning-home-solar-electric-system">US Dept. of Energy Primer for planning a home solar system</a></li>
+<li><a href="http://energy.gov/energysaver/articles/grid-connected-renewable-energy-systems">US Dept. of Energy Primer for planning a grid connected solar system</a></li>
+<li><a href="http://www1.eere.energy.gov/solar/pdfs/44792.pdf">US Dept. of Energy 2008 Homebuilder Guide to Going Solar (pdf)</a></li>
+<li><a href="http://www.nrel.gov/education/pdfs/educational_resources/high_school/solar_circuitry_hs.pdf">NREL Middle / High School Solar Circuity pdf</a></li>
+</ul>
+        
+<h3 id="systemtypes">Residential Solar System Types</h3>
         <ul>
 <li>Off Grid (stand alone system)</li>
 <li>Grid Tie System</li>
 <li>Grid Tie System with Battery Backup (Bimodal)</li>
         </ul>
-<h3>Residential Solar System Basic Components</h3>
-
+        
+<h3 id="basictable">Residential Solar System Basic Components</h3>
 <table>
   <tr><th>Off Grid</th> 	<th>Grid Tie</th>	<th>Bimodal</th></tr>
 <tr><td>Modules</td> 	<td>Modules</td> 	<td>Modules</td></tr>
 <tr><td>Racking</td> 	<td>Racking</td> 	<td>Racking</td></tr>
 <tr><td>Inverter</td> 	<td>Inverter</td> 	<td>Inverter</td></tr>
 <tr><td>-</td> 	<td>Grid 	(optional) <td>Grid</td></tr>
-<tr><td>Charge Controller</td> 	<td>-</td> 	Charge Controller</td></tr>
+<tr><td>Charge Controller</td> 	<td>-</td> 	<td>Charge Controller</td></tr>
 <tr><td>Battery</td> 	<td>-</td> 	<td>Battery</td></tr>
 <tr><td>Generator</td> 	<td>-</td> 	<td>(optional) Generator</td></tr>
 </table>
@@ -71,7 +75,7 @@
 <h3>Make Some Calculations</h3>
 
 ...
-<h4>Rebate Programs</h4>
+<h4 id="rebate">Rebate Programs</h4>
 
 <p>Check - <a href="http://www.dsireusa.org/">dsireusa.org</a></p>
 <h3>Hardware / System Basics</h3>
