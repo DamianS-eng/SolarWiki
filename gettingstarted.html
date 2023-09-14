@@ -1,133 +1,81 @@
 <!DOCTYPE html>
   <html lang="en-US" class="theme-beta">
     <head>
-    <title>Solar Homeowner Guide</title>
+    <title>Solar Homeowner Getting StartedGuide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta charset="utf-8"/>
     <link rel="icon" type="image/ico" href="docs/image.ico"/>
     </head>
-    <header><h1>Solar Homeowner Guide</h1></header>
+    <header><h1>Getting Started with Solar as a Homeowner</h1></header>
       <nav id="mainmenu">
         <h2>Wiki Page Navigation Menu</h2>
         <ul>
-        <li><a href="#Govt">Gov't Getting Started Info</a></li>
-        <li><a href="#systemtypes">Residential Solar System Types</a>
-          <ul>
-            <li><a href="#offgrid">Off Grid (stand alone system)</a></li>
-            <li><a href="#gridtie">Grid Tie System</a></li>
-            <li><a href="#bimodal">Grid Tie System with Battery Backup (Bimodal)</a></li>
-          </ul></li>
-        <li><a href="#basictable">Residential Solar System Basic Components</a></li>
-        <li><a href="#gettingstarted">Getting Started</a>
-          <ul>
-            <li><a href="#getinfo">Gather Some Info</a></li>
-            <li><a href="#calculate">Make Some Calculations</a></li>
-            <li><a href="#rebate">Rebate Programs</a></li>
-            <li><a href="#system">Hardware / System Basics</a></li>
-            <li><a href="#moremath">More Calculations</a></li>
-            <li><a href="#choose">Choosing / Purchasing Components</a></li>
-            <li><a href="#install">Installation</a></li>
-            <li><a href="#maintenance">Maintenance Considerations</a></li>
-          </ul></li>
-        <li><a href="#FAQ_how">FAQ - How Do I...</a></li>
-        <li><a href="#FAQ_shed">FAQ - Solar for a Shed</a></li>
+        <li><a href="#categories">Solar Technology Categories</a></li>
+        <li><a href="#terms">Terminology</a>
+        <li><a href="#formulas">Commonly Used Formulas</a></li>
+        <li><a href="#read">Suggested Reading</a></li>
+        <li><a href="#consumption">Average US Power Consumption</a></li>
+        <li><a href="#radiation">Average US and European Solar Radiation</a></li>
+        <li><a href="#sizes">Average Home Sizes</a></li>
         </ul>
 <ul id="external"><li><a href="#">Home</a></li> <li><a href="./gettingstarted.html">Solar Primer</a></li> <li><a href="https://www.nrel.gov/pv/assets/images/efficiency-chart-20180716.jpg">Tech Tracker</a></li> <li><a href="#">Homeowner Guide</a></li> <li><a href="./panels.html">Panel Info</a></li> <li><a href="#credit">Credit</a></li></ul>
       </nav>
       <body>
-      <h2 id="Govt">Gov't Getting Started Info</h2>
-<ul>
-<li><a href="http://energy.gov/energysaver/articles/small-solar-electric-systems">US Dept. of Energy Primer for small solar residential systems</a></li>
-<li><a href="http://energy.gov/energysaver/articles/planning-home-solar-electric-system">US Dept. of Energy Primer for planning a home solar system</a></li>
-<li><a href="http://energy.gov/energysaver/articles/grid-connected-renewable-energy-systems">US Dept. of Energy Primer for planning a grid connected solar system</a></li>
-<li><a href="http://www1.eere.energy.gov/solar/pdfs/44792.pdf">US Dept. of Energy 2008 Homebuilder Guide to Going Solar (pdf)</a></li>
-<li><a href="http://www.nrel.gov/education/pdfs/educational_resources/high_school/solar_circuitry_hs.pdf">NREL Middle / High School Solar Circuity pdf</a></li>
-</ul>
+      <h2 id="categories">Solar Technology Categories</h2>
+        <p>categories and descriptions from the National Renewable Energy Laboratory</p>
+<dl>
+  <dt>Concentrating Solar Power</dt><dd>These technologies harness heat from the sun to provide electricity for large power stations.</dd>
+  <dt>Passive Solar Technology</dt><dd>These technologies harness heat from the sun to warm our homes and businesses in winter.</dd>
+  <dt>Solar Photovoltaic Technology</dt><dd>These technologies convert sunlight directly into electricity to power homes and businesses.</dd>
+  <dt>Solar Water Heating</dt><dd>These technologies harness heat from the sun to provide hot water for homes and businesses.</dd>
+  <dt>Solar Process Heat</dt><dd>These technologies use solar energy to heat or cool commercial and industrial buildings.</dd>
+</dl>
         
-<h3 id="systemtypes">Residential Solar System Types</h3>
-        <ul>
-<li id="offgrid">Off Grid (stand alone system)</li>
-<li id="gridtie">Grid Tie System</li>
-<li id="backup">Grid Tie System with Battery Backup (Bimodal)</li>
-        </ul>
-        
-<h3 id="basictable">Residential Solar System Basic Components</h3>
+<h3 id="terms">Terminology</h3>
 <table>
-  <tr><th>Off Grid</th> 	<th>Grid Tie</th>	<th>Bimodal</th></tr>
-<tr><td>Modules</td> 	<td>Modules</td> 	<td>Modules</td></tr>
-<tr><td>Racking</td> 	<td>Racking</td> 	<td>Racking</td></tr>
-<tr><td>Inverter</td> 	<td>Inverter</td> 	<td>Inverter</td></tr>
-<tr><td>-</td> 	<td>Grid 	(optional) <td>Grid</td></tr>
-<tr><td>Charge Controller</td> 	<td>-</td> 	<td>Charge Controller</td></tr>
-<tr><td>Battery</td> 	<td>-</td> 	<td>Battery</td></tr>
-<tr><td>Generator</td> 	<td>-</td> 	<td>(optional) Generator</td></tr>
+  <tr><th>Term</th><th>Definition</th></tr>
+  <tr><td>PV</td><td>(PhotoVoltaic) Semiconductor technology which converts light into electricity</td></tr>
+  <tr><td>Inverter</td><td>Convertes DC to AC</td></tr>
+  <tr><td>Bimodal</td><td>An inverter system with batteries and capabilities to operate some circuits without the grid</td></tr>
+  <tr><td>Transformer</td>sometimes autotransformer, converters AC voltages. IE 240V to 120V, or 120V to 240V<td></td></tr>
+  <tr><td>CC</td><td></td>(Charge Controller) takes power from PV modules and converts to appropriate level to charge batteries</tr>
+  <tr><td>MPPT</td><td>(Maximum Power Point Tracking) CC technology type</td></tr>
+  <tr><td>PWM</td><td>(Pulse Width Modulation) simple CC technology type</td></tr>
 </table>
-<h2 id="gettingstarted">Getting Started</h2>
-<h3 id="gettingstarted">Gather Some Info</h3>
-<ul>
-<li>Your location</li>
-<li>Orientation</li>
-<li>shadows</li>
-<li>Roof size</li>
-<li>Past Energy Usage</li>
-<li>etc.</li>
-</ul>
-<h3 id="calculate">Make Some Calculations</h3>
 
-...
-<h4 id="rebate">Rebate Programs</h4>
+<h3 id="forumlas">Commonly Used Formulas</h3>
+        <math>V=IR</math>
+        <span>Voltage = Current x Resistance</span>
+        <math>P=IV</math>
+        <span>Power = Current x Voltage</span>
 
-<p>Check - <a href="http://www.dsireusa.org/">dsireusa.org</a></p>
-<h3 id="system">Hardware / System Basics</h3>
+<h3 id="read">Suggested Reading</h3>
+        <p>Books suggested <a href="#">here.</a></p>
+        <ul>
+          <li>Photovoltaics for Professionals</li>
+          <li>Photovoltaics Systems 2nd Edition</li>
+        </ul>
 
-...
-<h3 id="moremath">More Calculations</h3>
+<h3 id="consumption">Average US Power Consumption</h3>
+        <span>2012 Average Monthly Bill- Residential
+source - US Energy Information Administration
+(Data from forms EIA-861- schedules 4A-D, EIA-861S and EIA-861U) </span>
+<table>
+  <tr><th>State</th> 	<th>Number of Customers</th>	<th>Average Monthly Consumption (kWh)</th> <th>Average Price(cents/kWh)</th></tr>
+<tr><td>..</td> 	<td>-</td> 	<td>..</td> <td>-</td> <td>-</td></tr>
+</table>
+<h3 id="radiation">Average US and European Solar Radiation</h3>
+        <p>For other regions of the world, see <a href="http://solargis.info/">http://solargis.info/</a></p>
+<img src="https://a.thumbs.redditmedia.com/B3EAbbaYWc9yph-r.png alt=""/>
+<img src="https://d.thumbs.redditmedia.com/w-Cf8OSPQiScEFCW.png alt=""/>
 
-...
-<h3 id="choose">Choosing / Purchasing Components</h3>
+<h3 id="sizes">Average Home Sizes</h3>
+        <p>While avg sq ft does not necessarily equate to typical roof size (a two story house for instance), this is a rough approximation.</p>
+<img src="https://e.thumbs.redditmedia.com/7ePVzzLdr-Uo9Xmj.png alt=""/>
+<p>From the <a href="http://www.census.gov/const/C25Ann/sftotalmedavgsqft.pdf">US Census Bureau</a>
+Average Home Sizes per region 1973 - 2010 </p>
+        <img src="https://d.thumbs.redditmedia.com/h2At1S5Wd1-ZMfzW.png alt=""/>
 
-...
-<h3 id="install">Installation</h3>
-
-...
-<h3 id="maintenance">Maintenance Considerations</h3>
-
-...
-<h2 id="FAQ_how">FAQ - How Do I...</h2>
-
-<p>See these posts for discussion on some how-to questions</p>
-<ul>
-    <li><a href="https://redd.it/34k78w"> - TeslaWall - Now what? What else do I need in a system?</a></li>
-    <li><a href="https://redd.it/4btmqj"> - Lets talk fuses. Where do I need to add fuses? How do I replace them if needed?</a></li>
-    <li><a href="https://redd.it/4lg5sg"> - Almost ready to pull the solar trigger. Give me some pointers please.</a></li>
-    <li><a href="https://redd.it/31baa3"> - Interested in installing solar, but daunted at how much I don't know</a></li>
-    <li><a href="https://redd.it/y2ttc"> - I'm interested in installing solar panels for my house, and I need some guidance.(Canada)</a></li>
-    <li><a href="https://redd.it/3vjvy9"> - It's that time of year again...How do I keep the snow off my panels?</a></li>
-    <li><a href="https://redd.it/3xprdb"> - Solar panels...are they all the same?</a></li>
-    <li><a href="https://redd.it/393xnp"> - How do I evaluate solar panel companies? I don't know anything!</a></li>
-    <li><a href="https://redd.it/2rbyuv"> - Buying a new house. How do I make sure that we can support solar panel technology?</a></li>
-    <li><a href="https://redd.it/4si90l"> - Since so many people have asked, here are the details about my solar system. (I posted yesterday about how my yearly bill was only $15, instead of about $4500)</a></li>
-    <li><a href="https://redd.it/1x91hf"> - I was looking into getting panels installed on my roof, but i am finding it very difficult to get answers to a lot of questions. :(</a></li>
-    <li><a href="https://redd.it/51urul"> - Guide to Battery Sizing / Capacity Calculator</a></li>
-    <li><a href="https://redd.it/1cyhj9"> - Question about wiring batteries.</a></li>
-    <li><a href="https://redd.it/4ttmz4"> - How to secure residential panels?</a></li>
-    <li><a href="https://redd.it/3ot9ya"> - How do installers choose which inverter to use?</a></li>
-</ul>
-<h2 id="FAQ_shed">FAQ - Solar for a Shed</h2>
-
-<p>See these posts for some discussion on solar for sheds / cabins</p>
-<ul>
-    <li><a href="https://redd.it/2m5i5n"> - Lighting a Shed using solar power</a></li>
-    <li><a href="https://redd.it/498nsz"> - Solar Shed</a></li>
-    <li><a href="https://redd.it/2dqzpp"> - Self Sufficient Shed</a></li>
-    <li><a href="https://redd.it/478dpl"> - Thinking about adding solar to my shed... Any advice for affordable, out of the box systems?</a></li>
-    <li><a href="https://redd.it/2gkv4u"> - A long rambling post with a couple questions somewhere about solar power. It's for a shed.</a></li>
-    <li><a href="https://redd.it/4juiyv"> - My off-grid solar system is alive! 1140W, 12kWh.</a></li>
-    <li><a href="https://redd.it/30nj7k"> - Wanting to make a small solar setup as a hobby/project.</a></li>
-    <li><a href="https://redd.it/58a37t"> - System or components for basic cabin gear</a></li>
-    <li><a href="https://redd.it/4x7wda"> - Backyard and Shed lighting</a></li>
-    <li><a href="https://redd.it/4s2rpa"> - My Solar Shed: Part 9: The Solar System (from solar panels to outlets)</a></li>
-  </ul>
 <footer id="credit">
   <p>Original wiki derived from <a href="https://www.reddit.com/r/solar/wiki/homeownerguide/">Reddit</a></p>
 </footer>
